@@ -1,0 +1,87 @@
+{
+    "name": "Melania Robot",
+    "description": "Telegram Group Management Bot.",
+    "logo": "https://graph.org/file/8b8c781e18e8597f45f56.jpg",
+    "keywords": [
+       "telegram",
+       "modular",
+       "group",
+       "manager"
+    ],   
+ "repository": "https://github.com/SHIVANSH475/SHIVANSH-ROBOT",
+ "stack": "heroku-22",
+ "addons": [
+    {
+       "options": {
+          "version": "16"
+       },
+       "plan": "heroku-postgresql"
+    }
+ ],
+ "env": {
+    "API_ID": {
+       "description": "Get this value from my.telegram.org/apps.",
+       "required": true,
+       "value": "29308061"
+    },
+    "API_HASH": {
+       "description": "Get this value from my.telegram.org/apps.",
+       "required": true,
+       "value": "462de3dfc98fd938ef9c6ee31a72d099"
+    },
+    "ALLOW_EXCL": {
+       "description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",
+       "value": "True"
+    },
+    "DEL_CMDS": {
+       "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
+       "value": "True"
+    },
+    "ENV": {
+       "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
+       "required": true,
+       "value": "True"
+    },
+    "EVENT_LOGS": {
+       "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
+       "required": true,
+       "value": "-1002018556839"
+    },
+    "MONGO_DB_URI": {
+       "description": "Required for database connections.",
+       "required": true,
+       "value": "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority"
+    },
+    "CASH_API_KEY": {
+        "description": " Get your API key from https://www.alphavantage.co/support/#api-key",
+        "required": false,
+        "value": ""
+    },
+    "TIME_API_KEY": {
+        "description": " Get your API key from https://timezonedb.com/api",
+        "required": false,
+        "value": "Asia/Kolkata"
+    },   
+        
+    "OWNER_ID": {
+       "description": "Your user ID as an integer.",
+       "required": true,
+       "value": "6762113050"
+    },
+    "START_IMG": {
+       "description": "Telegraph link of the image which will be shown at start command.",
+       "required": true,
+       "value": "https://graph.org/file/8b8c781e18e8597f45f56.jpg"
+    },
+    "SUPPORT_CHAT": {
+       "description": "Your Telegram support group chat username where your users will go and bother you with shit Example - The_support_chat.",
+       "required": true,
+       "value": "MASTIWITHFRIENDSXD"
+    },
+    "TOKEN": {
+       "description": "Get bot token from @BotFather on TG",
+       "required": true,
+       "value": ""
+    }
+ }
+}
