@@ -17,13 +17,12 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [𝙂𝙊𝙅𝙊](h
 <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=white&label=telethon&logo=python&logoColor=blue&style=for-the-badge" /></a>
 <a href="https://pypi.org/project/Pyrogram/"> <img src="https://img.shields.io/pypi/v/pyrogram?color=white&label=pyrogram&logo=python&logoColor=blue&style=for-the-badge" /></a>
 <a href="https://github.com/Demonios-Network/Gojo-Satoru"> <img src="https://img.shields.io/github/repo-size/Demonios-Network/Gojo-Satoru?color=skyblue&logo=github&logoColor=blue&style=for-the-badge" /></a>
-<a href="https://github.com/Demonios-Network/Gojo-Satoru/commits/Anonymous04"> <img src="https://img.shields.io/github/last-commit/demonios-network/gojo-satoru?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-</p>
+<a href="https://github.com/Demonios-Network/Gojo-Satoru/commits/Anonymous04"> <img src="https://img.shields.io/github/last-commit/demonios-network/gojo-satoru?color=black&logo=github&logoColor=black&style=
 
 ━━━━━━━━━━━━━━━━━━━━
 
 <p align="center">
-  <img src="https://ibb.co/6J31pPy">
+  <img src="https://telegra.ph/file/4a14aa91d2276be702ae7.jpg">
 </p>
 
 <p align="center">
