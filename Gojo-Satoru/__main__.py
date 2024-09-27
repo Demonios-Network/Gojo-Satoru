@@ -76,25 +76,31 @@ PM_START_TEX = """
 
 
 PM_START_TEXT = """ 
-**•──────────────────────•**\n**❍ ʜᴇʏ {},\n**•──────────────────────•**\n**❍ ɪ ᴀᴍ {},**\n**❍ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs**\n**•──────────────────────•**\n**❍ ᴜsᴇʀs ➛ {} **\n**❍ ᴄʜᴀᴛs ➛ {} **\n**•──────────────────────•**\n**❍ ɪ ʜᴀᴠᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟʟ ғᴇᴀᴛᴜʀᴇs**\n**ᴍᴜsɪᴄ ʙᴏᴛ + ᴄʜᴀᴛʙᴏᴛ + ᴍᴀɴᴀɢᴇᴍᴇɴᴛ**\n**•──────────────────────•**"""
+**•──────────────────────•**\n**❍ ʜᴇʏ {},\n**──────「 Ꮐᴏᴊᴏ ꕶᴀᴛᴏʀᴜ 」────── 
+
+㋡ ʜɪ, ɪ'ᴍ Ꮐᴏᴊᴏ ꕶᴀᴛᴏʀᴜ! ᴛʜᴇ ʙᴏᴛ ᴛʜᴀᴛ's ғᴀsᴛᴇʀ ᴛʜᴀɴ ᴀ sᴘᴇᴇᴅɪɴɢ ʙᴜʟʟᴇᴛ ᴀɴᴅ sᴍᴏᴏᴛʜᴇʀ ᴛʜᴀɴ Jᴀᴢᴢ.
+
+‣ ɪ ʜᴀᴠᴇ ᴍᴀɴʏ ғᴇᴀᴛᴜʀᴇs ᴍᴜsɪᴄ? ɴᴏ ᴘʀᴏʙʟᴇᴍ. ᴍᴀɴᴀɢᴇᴍᴇɴᴛ? ᴘɪᴇᴄᴇ ᴏғ ᴄᴀᴋᴇ. ʟᴀɢ? ɴᴏᴛ ᴏɴ ᴍʏ ᴡᴀᴛᴄʜ!
+
+◉ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ 「 Ꮐᴏᴊᴏ ꕶᴀᴛᴏʀᴜ 」 ғᴇᴀᴛᴜʀᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs+**"""
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="• ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ •", 
+            text="𝗔𝗗𝗗 𝗠𝗘 𝗜𝗡 𝗚𝗥𝗢𝗨𝗣", 
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true", 
         ),
     ],
     [
-        InlineKeyboardButton(text="• ʀᴇᴘᴏ •", callback_data="gib_source"),
-        InlineKeyboardButton(text="• ᴀʙᴏᴜᴛ •", callback_data="mukesh_"),
+        InlineKeyboardButton(text="𝗦𝗢𝗨𝗥𝗖𝗘", url=f"https://github.com/Demonios-Network/Gojo-Satoru"),
+        InlineKeyboardButton(text="𝗔𝗕𝗢𝗨𝗧", callback_data="mukesh_"),
     ],
     [
-        InlineKeyboardButton(text="• ᴜᴘᴅᴀᴛᴇ •", url=f"https://t.me/SHIVANSH474"),
-        InlineKeyboardButton(text="• ꜱᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="𝗨𝗣𝗗𝗔𝗧𝗘𝗦", url=f"https://t.me/SHIVANSH474"),
+        InlineKeyboardButton(text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
-        InlineKeyboardButton(text="• ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs •", callback_data="Main_help"),
+        InlineKeyboardButton(text="𝗛𝗘𝗟𝗣 & 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦", callback_data="Main_help"),
     ],
 
 ]
@@ -117,31 +123,29 @@ HELP_STRINGS = f"""
 ❍ *{BOT_NAME}  ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪғɪᴄs ᴄᴏᴍᴍᴀɴᴅ*"""
 
 ABHI = [
-"https://telegra.ph/file/f19e32b1b5b515956b402.jpg",
-"https://telegra.ph/file/1d4c6826797fb36ea5b92.jpg",
-"https://telegra.ph/file/8c9296b3ec2a367e159e9.jpg",
-"https://telegra.ph/file/129ccbaa0c0b05477a3f7.jpg",
-"https://telegra.ph/file/9e9c427b50a359b428ae2.jpg",
-"https://telegra.ph/file/4a1ea9ab5b3d2b9f9ac65.jpg",
-"https://telegra.ph/file/e1da13730ffaff4d82aef.jpg",
-"https://telegra.ph/file/f8334227993b76fd2e5af.jpg",
-"https://telegra.ph/file/3b9208b7966104c19ec85.jpg",
-"https://telegra.ph/file/6f7be044a44d25a04d381.jpg",     
+"https://telegra.ph/file/2fc5589d9d7dff06e286f.jpg",
+"https://telegra.ph/file/63ac376c0376956b2d8e4.jpg",
+"https://telegra.ph/file/f7063d358f2a1aec5c401.jpg",
+"https://telegra.ph/file/b8719b281572b48d0b74e.jpg",
+"https://telegra.ph/file/a105fd68889034286dc35.jpg",
+"https://telegra.ph/file/d29120aa703cc6af310ae.jpg",
+"https://telegra.ph/file/2360f9618642f9dbdb923.jpg",
+"https://telegra.ph/file/bf1b67ec30c2dfeeb198b.jpg",
+"https://telegra.ph/file/0693ad8ba218cd8727c4a.jpg",
 
 ]
 
 NYKAA = [
-"https://telegra.ph/file/f19e32b1b5b515956b402.jpg",
-"https://telegra.ph/file/1d4c6826797fb36ea5b92.jpg",
-"https://telegra.ph/file/8c9296b3ec2a367e159e9.jpg",
-"https://telegra.ph/file/129ccbaa0c0b05477a3f7.jpg",
-"https://telegra.ph/file/9e9c427b50a359b428ae2.jpg",
-"https://telegra.ph/file/4a1ea9ab5b3d2b9f9ac65.jpg",
-"https://telegra.ph/file/e1da13730ffaff4d82aef.jpg",
-"https://telegra.ph/file/f8334227993b76fd2e5af.jpg",
-"https://telegra.ph/file/3b9208b7966104c19ec85.jpg",
-"https://telegra.ph/file/6f7be044a44d25a04d381.jpg",    
-]
+"https://telegra.ph/file/2fc5589d9d7dff06e286f.jpg",
+"https://telegra.ph/file/63ac376c0376956b2d8e4.jpg",
+"https://telegra.ph/file/f7063d358f2a1aec5c401.jpg",
+"https://telegra.ph/file/b8719b281572b48d0b74e.jpg",
+"https://telegra.ph/file/a105fd68889034286dc35.jpg",
+"https://telegra.ph/file/d29120aa703cc6af310ae.jpg",
+"https://telegra.ph/file/2360f9618642f9dbdb923.jpg",
+"https://telegra.ph/file/bf1b67ec30c2dfeeb198b.jpg",
+"https://telegra.ph/file/0693ad8ba218cd8727c4a.jpg",
+]    
 
 
 DONATE_STRING = f"""❍ ʜᴇʏ ʙᴀʙʏ, ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ. ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ @SHIVANSH39 ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ @MASTIWITHFRIENDSXD ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
